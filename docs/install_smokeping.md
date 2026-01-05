@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Install Smokeping Ubuntu
 parent: Linux
 nav_order: 1
