@@ -8,14 +8,17 @@ nav_order: 1
 
 
 # Install dan Konfigurasi Smokeping 2.9 Ubuntu
+Smokeping adalah tool monitoring latency yang banyak digunakan perusahaan jaringan untuk memantau latency jaringan secara realtime.
 
 ## 1. Instalasi Smokeping
 
+
+
 1. Update & Upgrade system
 
-  ```
-  sudo apt update && sudo apt upgrade -y
-  ```
+    ```
+    sudo apt update && sudo apt upgrade -y
+    ```
 
 2. Install dependencies
 
