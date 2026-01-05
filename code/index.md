@@ -1,5 +1,5 @@
 ---
 title: Buttons
-parent: UI Components
+parent: Smokeping
 nav_order: 2
 ---
