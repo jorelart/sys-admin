@@ -49,6 +49,7 @@ nav_order: 3
    ```
 
 ### Troubleshoot
+
 Docker versi 2.91 memiliki masalah pada containerd v2.0.0, jika menemukan serupa lakukan downgrade pada containerd.io ke versi 1.7
 
 - Cek versi containerd.io
@@ -57,6 +58,7 @@ Docker versi 2.91 memiliki masalah pada containerd v2.0.0, jika menemukan serupa
   ```
 
 - Downgrade ke versi 1.7
+- 
   Cari dulu versi yang tersedia
   
   ```
@@ -69,12 +71,15 @@ Docker versi 2.91 memiliki masalah pada containerd v2.0.0, jika menemukan serupa
   sudo apt install --allow-downgrades -y containerd.io=1.7.28-0ubuntu1~22.04.1~jammy
   ```
 - Cegah auto update (hold version)
+- 
   ini penting supaya tidak diupgrade lagi (akan error)
+  
   ```
   sudo apt-mark hold containerd.io
   ```
 
 - Start ulang service
+- 
   ```
   sudo systemctl daemon-reexec
   sudo systemctl daemon-reload
