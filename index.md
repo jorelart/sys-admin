@@ -1,5 +1,5 @@
 ---
-title: Smokeping
+title: Home
 layout: home
 ---
 
